@@ -54,6 +54,7 @@
 		C728A41924597ED8001AEF97 /* GeliAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41024597ED8001AEF97 /* GeliAirConditioner.m */; };
 		C728A41A24597ED8001AEF97 /* AirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41424597ED8001AEF97 /* AirConditioner.m */; };
 		C728A41B24597ED8001AEF97 /* HaierAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41524597ED8001AEF97 /* HaierAirConditioner.m */; };
+		C728A41F245988CA001AEF97 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41E245988CA001AEF97 /* Tool.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -168,6 +169,9 @@
 		C728A41324597ED8001AEF97 /* GeliAirConditioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeliAirConditioner.h; sourceTree = "<group>"; };
 		C728A41424597ED8001AEF97 /* AirConditioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirConditioner.m; sourceTree = "<group>"; };
 		C728A41524597ED8001AEF97 /* HaierAirConditioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaierAirConditioner.m; sourceTree = "<group>"; };
+		C728A41C245988AE001AEF97 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
+		C728A41D245988CA001AEF97 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
+		C728A41E245988CA001AEF97 /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -359,6 +363,9 @@
 			children = (
 				C705A0042456CBF300FAB8F0 /* SingletonPatternViewController.h */,
 				C705A0052456CBF300FAB8F0 /* SingletonPatternViewController.m */,
+				C728A41D245988CA001AEF97 /* Tool.h */,
+				C728A41E245988CA001AEF97 /* Tool.m */,
+				C728A41C245988AE001AEF97 /* Single.h */,
 			);
 			path = "单例模式";
 			sourceTree = "<group>";
@@ -717,6 +724,7 @@
 				C705A0392456CCC800FAB8F0 /* MementoPatternViewController.m in Sources */,
 				C705A0002456CB1C00FAB8F0 /* FactoryPatternViewController.m in Sources */,
 				C705A01E2456CC5400FAB8F0 /* CompositePatternViewController.m in Sources */,
+				C728A41F245988CA001AEF97 /* Tool.m in Sources */,
 				C705A0032456CBE000FAB8F0 /* AbstractFactoryPatternViewController.m in Sources */,
 				C705A00C2456CC0B00FAB8F0 /* PrototypePatternViewController.m in Sources */,
 				C7059FB12456C36500FAB8F0 /* AppDelegate.m in Sources */,
