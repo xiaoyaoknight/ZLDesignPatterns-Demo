@@ -10,7 +10,7 @@
 
 @implementation AirConditioner
 
--  (void)loadCommand:(NSString *)command {
+- (void)loadCommand:(NSString *)command {
 
 }
 

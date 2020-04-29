@@ -37,8 +37,6 @@
     temperatureRemote.airConditioner = haierAirConditioner;
     [temperatureRemote colder];
     
-    //=====================================================================================
-    
     //让格力空调往下吹热风
     GeliAirConditioner *geliAirConditioner =  [[GeliAirConditioner alloc] init];
     

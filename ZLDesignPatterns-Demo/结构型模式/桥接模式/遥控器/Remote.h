@@ -11,9 +11,9 @@
 
 @interface Remote : NSObject
 
-@property (nonatomic,strong)  AirConditioner *airConditioner;
+@property (nonatomic,strong) AirConditioner *airConditioner;
 
-//遥控器给空调发送指令
+// 遥控器给空调发送指令
 - (void)setCommand:(NSString *)command;
 
 @end

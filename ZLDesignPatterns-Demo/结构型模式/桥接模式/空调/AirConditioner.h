@@ -11,6 +11,6 @@
 @interface AirConditioner : NSObject
 
 //空调接收命令
--  (void)loadCommand:(NSString *)command;
+- (void)loadCommand:(NSString *)command;
 
 @end
