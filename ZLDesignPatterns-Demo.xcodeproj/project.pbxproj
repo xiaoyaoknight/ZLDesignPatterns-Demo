@@ -39,6 +39,15 @@
 		C705A03C2456CCD300FAB8F0 /* StatePatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C705A03B2456CCD300FAB8F0 /* StatePatternViewController.m */; };
 		C705A03F2456CCE100FAB8F0 /* VisitorPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C705A03E2456CCE100FAB8F0 /* VisitorPatternViewController.m */; };
 		C705A0422456CCEC00FAB8F0 /* InterpreterPatternViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C705A0412456CCEC00FAB8F0 /* InterpreterPatternViewController.m */; };
+		C728A3DD24596209001AEF97 /* Order.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3D424596208001AEF97 /* Order.m */; };
+		C728A3DE24596209001AEF97 /* ManagerHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3D524596208001AEF97 /* ManagerHandler.m */; };
+		C728A3DF24596209001AEF97 /* GroupLeaderHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3D824596209001AEF97 /* GroupLeaderHandler.m */; };
+		C728A3E024596209001AEF97 /* Handler.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3DA24596209001AEF97 /* Handler.m */; };
+		C728A3E124596209001AEF97 /* ChairmanHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3DC24596209001AEF97 /* ChairmanHandler.m */; };
+		C728A40224596F42001AEF97 /* BusinessObject1.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3FA24596F41001AEF97 /* BusinessObject1.m */; };
+		C728A40324596F42001AEF97 /* BusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3FB24596F41001AEF97 /* BusinessObject.m */; };
+		C728A40424596F42001AEF97 /* BusinessObject3.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3FE24596F42001AEF97 /* BusinessObject3.m */; };
+		C728A40524596F42001AEF97 /* BusinessObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A40024596F42001AEF97 /* BusinessObject2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +132,24 @@
 		C705A03E2456CCE100FAB8F0 /* VisitorPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VisitorPatternViewController.m; sourceTree = "<group>"; };
 		C705A0402456CCEC00FAB8F0 /* InterpreterPatternViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterpreterPatternViewController.h; sourceTree = "<group>"; };
 		C705A0412456CCEC00FAB8F0 /* InterpreterPatternViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterpreterPatternViewController.m; sourceTree = "<group>"; };
+		C728A3D324596208001AEF97 /* GroupLeaderHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupLeaderHandler.h; sourceTree = "<group>"; };
+		C728A3D424596208001AEF97 /* Order.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Order.m; sourceTree = "<group>"; };
+		C728A3D524596208001AEF97 /* ManagerHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagerHandler.m; sourceTree = "<group>"; };
+		C728A3D624596208001AEF97 /* ManagerHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagerHandler.h; sourceTree = "<group>"; };
+		C728A3D724596208001AEF97 /* ChairmanHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChairmanHandler.h; sourceTree = "<group>"; };
+		C728A3D824596209001AEF97 /* GroupLeaderHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupLeaderHandler.m; sourceTree = "<group>"; };
+		C728A3D924596209001AEF97 /* Handler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Handler.h; sourceTree = "<group>"; };
+		C728A3DA24596209001AEF97 /* Handler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Handler.m; sourceTree = "<group>"; };
+		C728A3DB24596209001AEF97 /* Order.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Order.h; sourceTree = "<group>"; };
+		C728A3DC24596209001AEF97 /* ChairmanHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChairmanHandler.m; sourceTree = "<group>"; };
+		C728A3FA24596F41001AEF97 /* BusinessObject1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessObject1.m; sourceTree = "<group>"; };
+		C728A3FB24596F41001AEF97 /* BusinessObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessObject.m; sourceTree = "<group>"; };
+		C728A3FC24596F42001AEF97 /* BusinessObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject.h; sourceTree = "<group>"; };
+		C728A3FD24596F42001AEF97 /* BusinessObject2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject2.h; sourceTree = "<group>"; };
+		C728A3FE24596F42001AEF97 /* BusinessObject3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessObject3.m; sourceTree = "<group>"; };
+		C728A3FF24596F42001AEF97 /* BusinessObject1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject1.h; sourceTree = "<group>"; };
+		C728A40024596F42001AEF97 /* BusinessObject2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessObject2.m; sourceTree = "<group>"; };
+		C728A40124596F42001AEF97 /* BusinessObject3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject3.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -400,6 +427,8 @@
 		C7059FF72456C38200FAB8F0 /* 责任链模式 */ = {
 			isa = PBXGroup;
 			children = (
+				C728A40624596F49001AEF97 /* one */,
+				C728A40724596F53001AEF97 /* two */,
 				C705A0312456CCAF00FAB8F0 /* ChainOfResponsibilityPatternViewController.h */,
 				C705A0322456CCAF00FAB8F0 /* ChainOfResponsibilityPatternViewController.m */,
 			);
@@ -458,6 +487,38 @@
 				C705A0292456CC8B00FAB8F0 /* ObserverPatternViewController.m */,
 			);
 			path = "观察者模式";
+			sourceTree = "<group>";
+		};
+		C728A40624596F49001AEF97 /* one */ = {
+			isa = PBXGroup;
+			children = (
+				C728A3FC24596F42001AEF97 /* BusinessObject.h */,
+				C728A3FB24596F41001AEF97 /* BusinessObject.m */,
+				C728A3FF24596F42001AEF97 /* BusinessObject1.h */,
+				C728A3FA24596F41001AEF97 /* BusinessObject1.m */,
+				C728A3FD24596F42001AEF97 /* BusinessObject2.h */,
+				C728A40024596F42001AEF97 /* BusinessObject2.m */,
+				C728A40124596F42001AEF97 /* BusinessObject3.h */,
+				C728A3FE24596F42001AEF97 /* BusinessObject3.m */,
+			);
+			path = one;
+			sourceTree = "<group>";
+		};
+		C728A40724596F53001AEF97 /* two */ = {
+			isa = PBXGroup;
+			children = (
+				C728A3DB24596209001AEF97 /* Order.h */,
+				C728A3D424596208001AEF97 /* Order.m */,
+				C728A3D924596209001AEF97 /* Handler.h */,
+				C728A3DA24596209001AEF97 /* Handler.m */,
+				C728A3D324596208001AEF97 /* GroupLeaderHandler.h */,
+				C728A3D824596209001AEF97 /* GroupLeaderHandler.m */,
+				C728A3D624596208001AEF97 /* ManagerHandler.h */,
+				C728A3D524596208001AEF97 /* ManagerHandler.m */,
+				C728A3D724596208001AEF97 /* ChairmanHandler.h */,
+				C728A3DC24596209001AEF97 /* ChairmanHandler.m */,
+			);
+			path = two;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -592,12 +653,15 @@
 			files = (
 				C705A0122456CC2700FAB8F0 /* DecoratorPatternViewController.m in Sources */,
 				C705A0092456CC0000FAB8F0 /* BuilderViewController.m in Sources */,
+				C728A3E024596209001AEF97 /* Handler.m in Sources */,
 				C705A0152456CC3400FAB8F0 /* DelegatePatternViewController.m in Sources */,
 				C7059FB72456C36500FAB8F0 /* ViewController.m in Sources */,
 				C705A00F2456CC1B00FAB8F0 /* AdapterViewController.m in Sources */,
 				C705A0302456CCA400FAB8F0 /* IteratorPatternViewController.m in Sources */,
 				C705A0272456CC7B00FAB8F0 /* TemplatePatternViewController.m in Sources */,
 				C705A0182456CC3F00FAB8F0 /* FacadePatternViewController.m in Sources */,
+				C728A3DE24596209001AEF97 /* ManagerHandler.m in Sources */,
+				C728A40424596F42001AEF97 /* BusinessObject3.m in Sources */,
 				C705A0242456CC6C00FAB8F0 /* StrategyPatternViewController.m in Sources */,
 				C705A0212456CC6000FAB8F0 /* FlyweightPatternViewController.m in Sources */,
 				C705A0332456CCAF00FAB8F0 /* ChainOfResponsibilityPatternViewController.m in Sources */,
@@ -607,15 +671,21 @@
 				C705A0032456CBE000FAB8F0 /* AbstractFactoryPatternViewController.m in Sources */,
 				C705A00C2456CC0B00FAB8F0 /* PrototypePatternViewController.m in Sources */,
 				C7059FB12456C36500FAB8F0 /* AppDelegate.m in Sources */,
+				C728A3DD24596209001AEF97 /* Order.m in Sources */,
 				C7059FC22456C36600FAB8F0 /* main.m in Sources */,
 				C7059FB42456C36500FAB8F0 /* SceneDelegate.m in Sources */,
+				C728A40324596F42001AEF97 /* BusinessObject.m in Sources */,
 				C705A0362456CCBB00FAB8F0 /* CommandPatternViewController.m in Sources */,
 				C705A03C2456CCD300FAB8F0 /* StatePatternViewController.m in Sources */,
 				C705A02D2456CC9700FAB8F0 /* MediatorPatternViewController.m in Sources */,
 				C705A0422456CCEC00FAB8F0 /* InterpreterPatternViewController.m in Sources */,
 				C705A03F2456CCE100FAB8F0 /* VisitorPatternViewController.m in Sources */,
+				C728A40524596F42001AEF97 /* BusinessObject2.m in Sources */,
+				C728A3E124596209001AEF97 /* ChairmanHandler.m in Sources */,
 				C705A02A2456CC8B00FAB8F0 /* ObserverPatternViewController.m in Sources */,
+				C728A40224596F42001AEF97 /* BusinessObject1.m in Sources */,
 				C705A01B2456CC4900FAB8F0 /* BridgePatternViewController.m in Sources */,
+				C728A3DF24596209001AEF97 /* GroupLeaderHandler.m in Sources */,
 				C705A0062456CBF300FAB8F0 /* SingletonPatternViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
