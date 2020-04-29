@@ -48,6 +48,12 @@
 		C728A40324596F42001AEF97 /* BusinessObject.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3FB24596F41001AEF97 /* BusinessObject.m */; };
 		C728A40424596F42001AEF97 /* BusinessObject3.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A3FE24596F42001AEF97 /* BusinessObject3.m */; };
 		C728A40524596F42001AEF97 /* BusinessObject2.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A40024596F42001AEF97 /* BusinessObject2.m */; };
+		C728A41624597ED8001AEF97 /* Remote.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A40924597ED8001AEF97 /* Remote.m */; };
+		C728A41724597ED8001AEF97 /* DirectionRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A40A24597ED8001AEF97 /* DirectionRemote.m */; };
+		C728A41824597ED8001AEF97 /* TemperatureRemote.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A40E24597ED8001AEF97 /* TemperatureRemote.m */; };
+		C728A41924597ED8001AEF97 /* GeliAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41024597ED8001AEF97 /* GeliAirConditioner.m */; };
+		C728A41A24597ED8001AEF97 /* AirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41424597ED8001AEF97 /* AirConditioner.m */; };
+		C728A41B24597ED8001AEF97 /* HaierAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41524597ED8001AEF97 /* HaierAirConditioner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -150,6 +156,18 @@
 		C728A3FF24596F42001AEF97 /* BusinessObject1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject1.h; sourceTree = "<group>"; };
 		C728A40024596F42001AEF97 /* BusinessObject2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusinessObject2.m; sourceTree = "<group>"; };
 		C728A40124596F42001AEF97 /* BusinessObject3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusinessObject3.h; sourceTree = "<group>"; };
+		C728A40924597ED8001AEF97 /* Remote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Remote.m; sourceTree = "<group>"; };
+		C728A40A24597ED8001AEF97 /* DirectionRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DirectionRemote.m; sourceTree = "<group>"; };
+		C728A40B24597ED8001AEF97 /* TemperatureRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TemperatureRemote.h; sourceTree = "<group>"; };
+		C728A40C24597ED8001AEF97 /* Remote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Remote.h; sourceTree = "<group>"; };
+		C728A40D24597ED8001AEF97 /* DirectionRemote.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DirectionRemote.h; sourceTree = "<group>"; };
+		C728A40E24597ED8001AEF97 /* TemperatureRemote.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TemperatureRemote.m; sourceTree = "<group>"; };
+		C728A41024597ED8001AEF97 /* GeliAirConditioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GeliAirConditioner.m; sourceTree = "<group>"; };
+		C728A41124597ED8001AEF97 /* AirConditioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirConditioner.h; sourceTree = "<group>"; };
+		C728A41224597ED8001AEF97 /* HaierAirConditioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HaierAirConditioner.h; sourceTree = "<group>"; };
+		C728A41324597ED8001AEF97 /* GeliAirConditioner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GeliAirConditioner.h; sourceTree = "<group>"; };
+		C728A41424597ED8001AEF97 /* AirConditioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirConditioner.m; sourceTree = "<group>"; };
+		C728A41524597ED8001AEF97 /* HaierAirConditioner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HaierAirConditioner.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -300,6 +318,8 @@
 			children = (
 				C705A0192456CC4900FAB8F0 /* BridgePatternViewController.h */,
 				C705A01A2456CC4900FAB8F0 /* BridgePatternViewController.m */,
+				C728A40F24597ED8001AEF97 /* 空调 */,
+				C728A40824597ED8001AEF97 /* 遥控器 */,
 			);
 			path = "桥接模式";
 			sourceTree = "<group>";
@@ -521,6 +541,32 @@
 			path = two;
 			sourceTree = "<group>";
 		};
+		C728A40824597ED8001AEF97 /* 遥控器 */ = {
+			isa = PBXGroup;
+			children = (
+				C728A40C24597ED8001AEF97 /* Remote.h */,
+				C728A40924597ED8001AEF97 /* Remote.m */,
+				C728A40D24597ED8001AEF97 /* DirectionRemote.h */,
+				C728A40A24597ED8001AEF97 /* DirectionRemote.m */,
+				C728A40B24597ED8001AEF97 /* TemperatureRemote.h */,
+				C728A40E24597ED8001AEF97 /* TemperatureRemote.m */,
+			);
+			path = "遥控器";
+			sourceTree = "<group>";
+		};
+		C728A40F24597ED8001AEF97 /* 空调 */ = {
+			isa = PBXGroup;
+			children = (
+				C728A41124597ED8001AEF97 /* AirConditioner.h */,
+				C728A41424597ED8001AEF97 /* AirConditioner.m */,
+				C728A41324597ED8001AEF97 /* GeliAirConditioner.h */,
+				C728A41024597ED8001AEF97 /* GeliAirConditioner.m */,
+				C728A41224597ED8001AEF97 /* HaierAirConditioner.h */,
+				C728A41524597ED8001AEF97 /* HaierAirConditioner.m */,
+			);
+			path = "空调";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -657,11 +703,14 @@
 				C705A0152456CC3400FAB8F0 /* DelegatePatternViewController.m in Sources */,
 				C7059FB72456C36500FAB8F0 /* ViewController.m in Sources */,
 				C705A00F2456CC1B00FAB8F0 /* AdapterViewController.m in Sources */,
+				C728A41A24597ED8001AEF97 /* AirConditioner.m in Sources */,
 				C705A0302456CCA400FAB8F0 /* IteratorPatternViewController.m in Sources */,
 				C705A0272456CC7B00FAB8F0 /* TemplatePatternViewController.m in Sources */,
 				C705A0182456CC3F00FAB8F0 /* FacadePatternViewController.m in Sources */,
+				C728A41724597ED8001AEF97 /* DirectionRemote.m in Sources */,
 				C728A3DE24596209001AEF97 /* ManagerHandler.m in Sources */,
 				C728A40424596F42001AEF97 /* BusinessObject3.m in Sources */,
+				C728A41824597ED8001AEF97 /* TemperatureRemote.m in Sources */,
 				C705A0242456CC6C00FAB8F0 /* StrategyPatternViewController.m in Sources */,
 				C705A0212456CC6000FAB8F0 /* FlyweightPatternViewController.m in Sources */,
 				C705A0332456CCAF00FAB8F0 /* ChainOfResponsibilityPatternViewController.m in Sources */,
@@ -675,8 +724,11 @@
 				C7059FC22456C36600FAB8F0 /* main.m in Sources */,
 				C7059FB42456C36500FAB8F0 /* SceneDelegate.m in Sources */,
 				C728A40324596F42001AEF97 /* BusinessObject.m in Sources */,
+				C728A41924597ED8001AEF97 /* GeliAirConditioner.m in Sources */,
 				C705A0362456CCBB00FAB8F0 /* CommandPatternViewController.m in Sources */,
+				C728A41B24597ED8001AEF97 /* HaierAirConditioner.m in Sources */,
 				C705A03C2456CCD300FAB8F0 /* StatePatternViewController.m in Sources */,
+				C728A41624597ED8001AEF97 /* Remote.m in Sources */,
 				C705A02D2456CC9700FAB8F0 /* MediatorPatternViewController.m in Sources */,
 				C705A0422456CCEC00FAB8F0 /* InterpreterPatternViewController.m in Sources */,
 				C705A03F2456CCE100FAB8F0 /* VisitorPatternViewController.m in Sources */,
