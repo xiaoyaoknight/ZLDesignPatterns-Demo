@@ -55,6 +55,10 @@
 		C728A41A24597ED8001AEF97 /* AirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41424597ED8001AEF97 /* AirConditioner.m */; };
 		C728A41B24597ED8001AEF97 /* HaierAirConditioner.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41524597ED8001AEF97 /* HaierAirConditioner.m */; };
 		C728A41F245988CA001AEF97 /* Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = C728A41E245988CA001AEF97 /* Tool.m */; };
+		C7A6CE69246B915E003B9976 /* FruitsFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6CE68246B915E003B9976 /* FruitsFactory.m */; };
+		C7A6CE6C246B9171003B9976 /* Fruits.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6CE6B246B9171003B9976 /* Fruits.m */; };
+		C7A6CE6F246B9197003B9976 /* Banana.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6CE6E246B9197003B9976 /* Banana.m */; };
+		C7A6CE72246B919F003B9976 /* Lemmon.m in Sources */ = {isa = PBXBuildFile; fileRef = C7A6CE71246B919F003B9976 /* Lemmon.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -172,6 +176,14 @@
 		C728A41C245988AE001AEF97 /* Single.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Single.h; sourceTree = "<group>"; };
 		C728A41D245988CA001AEF97 /* Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tool.h; sourceTree = "<group>"; };
 		C728A41E245988CA001AEF97 /* Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tool.m; sourceTree = "<group>"; };
+		C7A6CE67246B915E003B9976 /* FruitsFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FruitsFactory.h; sourceTree = "<group>"; };
+		C7A6CE68246B915E003B9976 /* FruitsFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FruitsFactory.m; sourceTree = "<group>"; };
+		C7A6CE6A246B9171003B9976 /* Fruits.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Fruits.h; sourceTree = "<group>"; };
+		C7A6CE6B246B9171003B9976 /* Fruits.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Fruits.m; sourceTree = "<group>"; };
+		C7A6CE6D246B9197003B9976 /* Banana.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Banana.h; sourceTree = "<group>"; };
+		C7A6CE6E246B9197003B9976 /* Banana.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Banana.m; sourceTree = "<group>"; };
+		C7A6CE70246B919F003B9976 /* Lemmon.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Lemmon.h; sourceTree = "<group>"; };
+		C7A6CE71246B919F003B9976 /* Lemmon.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Lemmon.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -354,6 +366,14 @@
 			children = (
 				C7059FFE2456CB1C00FAB8F0 /* FactoryPatternViewController.h */,
 				C7059FFF2456CB1C00FAB8F0 /* FactoryPatternViewController.m */,
+				C7A6CE67246B915E003B9976 /* FruitsFactory.h */,
+				C7A6CE68246B915E003B9976 /* FruitsFactory.m */,
+				C7A6CE6A246B9171003B9976 /* Fruits.h */,
+				C7A6CE6B246B9171003B9976 /* Fruits.m */,
+				C7A6CE6D246B9197003B9976 /* Banana.h */,
+				C7A6CE6E246B9197003B9976 /* Banana.m */,
+				C7A6CE70246B919F003B9976 /* Lemmon.h */,
+				C7A6CE71246B919F003B9976 /* Lemmon.m */,
 			);
 			path = "工厂方法模式";
 			sourceTree = "<group>";
@@ -714,13 +734,16 @@
 				C705A0302456CCA400FAB8F0 /* IteratorPatternViewController.m in Sources */,
 				C705A0272456CC7B00FAB8F0 /* TemplatePatternViewController.m in Sources */,
 				C705A0182456CC3F00FAB8F0 /* FacadePatternViewController.m in Sources */,
+				C7A6CE6F246B9197003B9976 /* Banana.m in Sources */,
 				C728A41724597ED8001AEF97 /* DirectionRemote.m in Sources */,
 				C728A3DE24596209001AEF97 /* ManagerHandler.m in Sources */,
+				C7A6CE6C246B9171003B9976 /* Fruits.m in Sources */,
 				C728A40424596F42001AEF97 /* BusinessObject3.m in Sources */,
 				C728A41824597ED8001AEF97 /* TemperatureRemote.m in Sources */,
 				C705A0242456CC6C00FAB8F0 /* StrategyPatternViewController.m in Sources */,
 				C705A0212456CC6000FAB8F0 /* FlyweightPatternViewController.m in Sources */,
 				C705A0332456CCAF00FAB8F0 /* ChainOfResponsibilityPatternViewController.m in Sources */,
+				C7A6CE72246B919F003B9976 /* Lemmon.m in Sources */,
 				C705A0392456CCC800FAB8F0 /* MementoPatternViewController.m in Sources */,
 				C705A0002456CB1C00FAB8F0 /* FactoryPatternViewController.m in Sources */,
 				C705A01E2456CC5400FAB8F0 /* CompositePatternViewController.m in Sources */,
@@ -745,6 +768,7 @@
 				C705A02A2456CC8B00FAB8F0 /* ObserverPatternViewController.m in Sources */,
 				C728A40224596F42001AEF97 /* BusinessObject1.m in Sources */,
 				C705A01B2456CC4900FAB8F0 /* BridgePatternViewController.m in Sources */,
+				C7A6CE69246B915E003B9976 /* FruitsFactory.m in Sources */,
 				C728A3DF24596209001AEF97 /* GroupLeaderHandler.m in Sources */,
 				C705A0062456CBF300FAB8F0 /* SingletonPatternViewController.m in Sources */,
 			);
